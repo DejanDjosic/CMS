@@ -1,0 +1,20 @@
+footer{
+    background-color: #383c44;
+}
+.container-fluid
+{
+    width:94%;
+}
+
+footer h1
+{
+    writing-mode: vertical-rl;
+    font-size: 70px;
+    transform: rotate(180deg);
+}
+hr{
+    background-color: white;
+    height: 2px;
+    width: 50%;
+    margin-left: 0;
+}
