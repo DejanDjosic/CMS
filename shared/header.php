@@ -1,3 +1,7 @@
+<?php 
+require('connection.php');
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,6 +12,6 @@
 	<title>CMS</title>
 </head>
 <body>
-<nav class='navbar navbar-expaned navbar-dark bg-dark'>
+<nav class='navbar navbar-expaned navbar-dark bg-dark h-15'>
 		<a href='index.php' class="navbar-brand">Content Management Studio</a>
 	</nav>

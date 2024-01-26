@@ -9,12 +9,23 @@ footer{
 footer h1
 {
     writing-mode: vertical-rl;
-    font-size: 70px;
+    font-size: 50px;
     transform: rotate(180deg);
 }
 hr{
-    background-color: white;
+    background-color: #ffffff;
     height: 2px;
     width: 50%;
     margin-left: 0;
+}
+.error
+{
+    color:#FF0000;
+    text-align: center;
+}
+.success
+{
+    color:#0B6623;
+    text-align: center;
+
 }
